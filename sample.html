@@ -5,11 +5,43 @@
     <title>Stock</title>
     <meta name="description" content="stock cost calculate">
     <meta name="author" content="yongzhong">
-
+	<style>
+		.container {
+			margin: 0 auto;
+			width: 960px;
+		}
+		.list-table td {
+			padding: 5px 20px;
+		}
+	</style>
     
   </head>
   <body>
-
+	<div class="container">
+		<section>
+			<h2>buy_cost(num, price, income)</h2>
+			<h3>概述</h3>
+			<p>计算买入成本</p>
+			<h3>参数</h3>
+			<table class="list-table">
+				<tr>
+					<td>num</td>
+					<td>Number</td>
+					<td>买入数量</td>
+				</tr>
+				<tr>
+					<td>price</td>
+					<td>Number</td>
+					<td>买入单价</td>
+				</tr>
+				<tr>
+					<td>income[可选]</td>
+					<td>Number</td>
+					<td>预期收益</td>
+				</tr>
+			</table>
+		</section>
+	</div>
     <script src="cost.js"></script>
   </body>
 </html>    
